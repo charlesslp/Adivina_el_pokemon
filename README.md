@@ -1,5 +1,5 @@
 # Adivina el pokemon
-Una aplicación hecha para los fans de Pokemon que deseen disfrutar de un buen rato recordando viejos tiempos ya en este juego de memoria el usuario debe adivinar el nombre del pokemon a partir de su sombra como hacían en la serie.
+Una aplicación hecha para los fans de Pokémon que consiste en adivinar el nombre de un pokémon a partir de su sombra.
 
 Dato de interés:
 
