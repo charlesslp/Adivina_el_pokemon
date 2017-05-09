@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MenuPrincipal"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:background="#ffff0e10">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pokemo_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/main_title"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(no oficial)"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/title_activity_jugar"
+        android:id="@+id/btnJugar"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/presion_boton"
+        android:layout_below="@+id/textView22"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/title_activity_tutorial"
+        android:id="@+id/btnAcerca"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/presion_boton"
+        android:clickable="true"
+        android:layout_below="@+id/btnJugar"
+        android:layout_alignLeft="@+id/btnJugar"
+        android:layout_alignStart="@+id/btnJugar"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/btnJugar"
+        android:layout_alignEnd="@+id/btnJugar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Pokédex"
+        android:id="@+id/btnLista"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/presion_boton"
+        android:layout_below="@+id/btnAcerca"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/btnAcerca"
+        android:layout_alignStart="@+id/btnAcerca"
+        android:layout_alignRight="@+id/btnAcerca"
+        android:layout_alignEnd="@+id/btnAcerca" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/s_charmander"
+        android:layout_weight="0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/s_squirtle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/s_bulbasaur"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+</RelativeLayout>

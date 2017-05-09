@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">¿Cual es este Pokemon?</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_jugar">Play</string>
+    <string name="title_activity_creditos">Credits</string>
+    <string name="title_activity_acerca_de">About</string>
+    <string name="title_activity_pokedex">Pokedex</string>
+    <string name="main_title">¿CUAL ES ESTE POKEMON?</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+
+    <string name="dinero">0$</string>
+
+    <string name="title_activity_tienda">shop</string>
+    <string name="title_activity_elegir_juego">Choose Game</string>
+
+    <string name="title_activity_logotipo">Logo</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="title_activity_ayuda">help</string>
+    <string name="No_tienes_suficientes">No tienes suficientes</string>
+    <string name="Estassegurodegastar20">¿Estas seguro de gastar 20</string>
+    <string name="Quieresverunvideo">¿Quieres ver un video?</string>
+    <string name="paradescubrirunaletra">para descubrir una letra?</string>
+
+
+</resources>

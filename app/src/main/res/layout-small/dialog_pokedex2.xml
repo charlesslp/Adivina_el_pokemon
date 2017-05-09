@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffd40d0f">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff000000">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="001.Bulbasaur"
+            android:id="@+id/textView30"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/imageView20"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/line_line_line1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/imageView14"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView16"
+            android:background="@drawable/line_line_line2"
+            android:layout_marginLeft="4dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Altura:"
+                android:id="@+id/textView31"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="0&apos;7 m"
+                android:id="@+id/textView32"
+                android:layout_gravity="center_horizontal"
+                android:textSize="17dp"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView18"
+                android:background="@drawable/line_line_line1"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pre-evolucion:"
+                android:id="@+id/textView33"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView19"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="false" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView17"
+            android:background="@drawable/line_line_line2" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Peso:"
+                android:id="@+id/textView35"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="6&apos;9 kg"
+                android:id="@+id/textView36"
+                android:layout_gravity="center_horizontal"
+                android:textSize="17dp"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView21"
+                android:background="@drawable/line_line_line1"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tipos:"
+                android:id="@+id/textView37"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Planta"
+                android:id="@+id/textView38"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Veneno"
+                android:id="@+id/textView20"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/imageView15"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/line_line_line1" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos solares."
+        android:id="@+id/textView21"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17dp" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="49dp"
+        android:text="Aceptar"
+        android:id="@+id/btnAceptar5000"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/presion_boton"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

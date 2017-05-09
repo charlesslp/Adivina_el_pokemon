@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.juego.charles.cuantos_puedes_pokeadivinar" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.MenuPrincipal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.Jugar"
+            android:label="@string/title_activity_jugar" >
+        </activity>
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.AcercaDe"
+            android:label="@string/title_activity_acerca_de" >
+        </activity>
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.Pokedex"
+            android:label="@string/title_activity_pokedex" >
+        </activity>
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.Tutorial"
+            android:label="@string/title_activity_tutorial" >
+        </activity>
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.ElegirJuego"
+            android:label="@string/title_activity_elegir_juego" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.Logotipo"
+            android:label="@string/title_activity_logotipo" >
+        </activity>
+        <activity
+            android:name="com.juego.charles.cuantos_puedes_pokeadivinar.ayuda"
+            android:label="@string/title_activity_ayuda" >
+        </activity><activity android:name="com.jirbo.adcolony.AdColonyOverlay"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <activity android:name="com.jirbo.adcolony.AdColonyFullscreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+        <activity android:name="com.jirbo.adcolony.AdColonyBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+    </application>
+
+</manifest>

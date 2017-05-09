@@ -1,0 +1,91 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.juego.charles.cuantos_puedes_pokeadivinar.ElegirJuego"
+    android:orientation="vertical"
+    android:id="@+id/layoutDeElegirJuego"
+    android:background="#ffff0e10">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presion_boton"
+            android:text="Modo ¡Hazte con todos!" />
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:text="tierra y roca"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/presion_boton" />
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:text="volador, fuego y dragon"
+            android:id="@+id/button9"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presion_boton"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:text="planta y bicho"
+            android:id="@+id/button10"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presion_boton"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:text="agua y hielo"
+            android:id="@+id/button11"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presion_boton"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:text="normal y acero"
+            android:id="@+id/button12"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presion_boton"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:text="veneno y fantasma"
+            android:id="@+id/button13"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presion_boton"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="61dp"
+            android:text="lucha, psiquico y electrico"
+            android:id="@+id/button14"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presion_boton"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+</ScrollView>

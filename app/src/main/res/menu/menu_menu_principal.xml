@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MenuPrincipal">
+    <item android:id="@+id/audio" android:title="Audio"
+        android:icon="@drawable/audio1"
+        android:orderInCategory="1" app:showAsAction="ifRoom" />
+    <item android:id="@+id/info" android:title="Info"
+        android:icon="@drawable/info"
+        android:orderInCategory="2" app:showAsAction="ifRoom" />
+    <item android:id="@+id/info2" android:title="Info"
+        android:orderInCategory="3" app:showAsAction="never" />
+    <item android:id="@+id/resetPok" android:title="Resetear Pokedex"
+        android:orderInCategory="5" app:showAsAction="never" />
+</menu>
